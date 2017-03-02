@@ -1,0 +1,81 @@
+.profile-image {
+  width: 200px;
+  margin-top: 30px;
+  @media #{$brk-narrow} {
+    float: right;
+    width: 45%;
+    padding-left: 45px;
+  }
+  @media #{$brk-wide} {
+    width: 45%;
+    height: 210px;
+    margin-top: 20px;
+  }
+}
+
+.container {
+  width: 91%;
+  margin: 0 auto;
+  @media #{$brk-wide} {
+    width: 95%;
+  }
+}
+.h-container { 
+  @media #{$brk-wide} {
+    width: 90%;
+  }
+}
+
+main {
+  @extend %clearfix; 
+  background: $color-prim;
+  padding-bottom: 20px;
+    @media #{$brk-wide} {
+      padding-bottom: 0px;
+    }
+} 
+
+#portfolio {
+  @media #{$brk-wide} {
+    background: $color-sec;
+  }
+  &-back {
+    @media #{$brk-wide} {
+      background: #ededed;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+#skills {
+  @extend %clearfix;
+  background: $color-prim;
+    @media #{$brk-wide} {
+      background: $color-sec;
+    }
+}
+
+#contact {
+  @extend %clearfix;
+  background: $color-sec;
+}
+.contact-border {
+  border-bottom: 1px solid $color-border-bottom;
+  padding-bottom: 30px;
+}
+
+.contact-text {
+  @media #{$brk-narrow} {
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  @media #{$brk-wide} {
+    width: 47%;
+  }
+}
+  
+span {
+  padding-left: 15px;
+  color: $color-span;
+}

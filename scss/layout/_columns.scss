@@ -1,0 +1,13 @@
+.portfolio-cel {
+     @media #{$brk-narrow} {
+	    display: inline-block;
+	    width: 49%;
+	    vertical-align: text-top;
+	}
+	@media #{$brk-wide} {
+      width: 30%;
+      margin-top: 10px;
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+}

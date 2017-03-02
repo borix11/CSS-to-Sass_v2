@@ -1,0 +1,41 @@
+// Descriptive color variables
+
+$white          : #fff;
+$black          : #000;
+$mine-shaft     : #222;
+$alto     		: #dadada;
+$gallery		: #ededed;
+$alabaster		: #fafafa;
+$mercury		: #e7e7e7;
+$fountain-blue	: #52bab4;
+
+// Functional color variables
+
+$color-link-default : $black;
+$color-link-hover	: $alto;
+
+$color-prim         : $gallery;
+$color-sec          : $alabaster;
+
+$color-text-base    : $mine-shaft;
+
+$color-border-bottom: $mercury;
+
+$color-span			: $fountain-blue;
+
+
+// Font stacks
+
+$stack-sans-serif	: sans-serif;
+$stack-roboto-sans	: Roboto, $stack-sans-serif;
+
+// Asset paths
+
+$path-img			: '../images';
+$path-font			: '../fonts';
+
+// Media query breakpoints
+
+$brk-narrow			: '(min-width: 720px)';
+$brk-wide			: '(min-width: 1024px)';
+

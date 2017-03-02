@@ -1,0 +1,35 @@
+footer {
+	@extend %clearfix;
+  	background: $color-sec;
+	& ul {
+	  display: inline;
+	  list-style-type: none;
+	}
+	& h2 {
+	  font-size: 0.9em;
+	}
+}
+.footer-name {
+    float: left;
+    padding-left: 10px;
+}
+.nav-back-to-top {
+    float: right;
+    padding-right: 10px;
+    @media #{$brk-narrow} {
+    	display: none;
+    }
+}
+.alt-nav {
+	display: none;
+	@media #{$brk-narrow} {
+    	display: inline;
+    }
+}
+@media #{$brk-narrow} {
+	.alt-nav li {
+		display: inline;
+		padding-right: 20px;
+		float: right;
+	}    
+}

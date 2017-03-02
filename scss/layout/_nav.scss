@@ -1,0 +1,55 @@
+.name {
+  @extend %clearfix;
+  @include text(1.75em, 900, $color-text-base);
+  font-family: 'Lato', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @media #{$brk-wide} {
+    display: inline-block;
+    float: left;
+    padding-top: 25px;
+  }
+    &-nav {
+      @media #{$brk-wide} {
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 10px;
+      }
+    }
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+    & ul {
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+    & li {
+    padding: 5px 10px 10px 10px;
+    background: #fff;
+    margin-bottom: 5px;
+    list-style-type: none;
+      @media #{$brk-narrow} {
+        display: inline;
+        background: $color-sec;
+      }
+    }
+    & a {
+      transition: all .5s;
+    }
+    @media #{$brk-wide} {
+      margin-top: 30px;
+      width: 40%;
+      display: inline;
+      float: right;
+    }
+}

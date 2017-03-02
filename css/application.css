@@ -1,0 +1,388 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  color: #222; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+  a:active, a:hover {
+    color: #dadada; }
+
+.name {
+  font-size: 1.75em;
+  font-weight: 900;
+  color: #222;
+  font-family: 'Lato', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  @media (min-width: 1024px) {
+    .name {
+      display: inline-block;
+      float: left;
+      padding-top: 25px; } }
+  @media (min-width: 1024px) {
+    .name-nav {
+      display: block;
+      padding-top: 30px;
+      padding-bottom: 10px; } }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0; }
+  nav ul {
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  nav li {
+    padding: 5px 10px 10px 10px;
+    background: #fff;
+    margin-bottom: 5px;
+    list-style-type: none; }
+    @media (min-width: 720px) {
+      nav li {
+        display: inline;
+        background: #fafafa; } }
+  nav a {
+    transition: all .5s; }
+  @media (min-width: 1024px) {
+    nav {
+      margin-top: 30px;
+      width: 40%;
+      display: inline;
+      float: right; } }
+
+header {
+  overflow: hidden;
+  line-height: 1.5;
+  background: #fafafa;
+  padding-bottom: 20px; }
+  @media (min-width: 720px) {
+    header {
+      padding-bottom: 30px; }
+      header p {
+        text-align: left;
+        margin-top: 25px; } }
+  @media (min-width: 1024px) {
+    header {
+      padding-bottom: 40px; }
+      header p {
+        margin-top: 90px;
+        width: 45%; } }
+
+footer {
+  background: #fafafa; }
+  footer ul {
+    display: inline;
+    list-style-type: none; }
+  footer h2 {
+    font-size: 0.9em; }
+
+.footer-name {
+  float: left;
+  padding-left: 10px; }
+
+.nav-back-to-top {
+  float: right;
+  padding-right: 10px; }
+  @media (min-width: 720px) {
+    .nav-back-to-top {
+      display: none; } }
+
+.alt-nav {
+  display: none; }
+  @media (min-width: 720px) {
+    .alt-nav {
+      display: inline; } }
+
+@media (min-width: 720px) {
+  .alt-nav li {
+    display: inline;
+    padding-right: 20px;
+    float: right; } }
+.profile-image {
+  width: 200px;
+  margin-top: 30px; }
+  @media (min-width: 720px) {
+    .profile-image {
+      float: right;
+      width: 45%;
+      padding-left: 45px; } }
+  @media (min-width: 1024px) {
+    .profile-image {
+      width: 45%;
+      height: 210px;
+      margin-top: 20px; } }
+
+.container {
+  width: 91%;
+  margin: 0 auto; }
+  @media (min-width: 1024px) {
+    .container {
+      width: 95%; } }
+
+@media (min-width: 1024px) {
+  .h-container {
+    width: 90%; } }
+
+main {
+  background: #ededed;
+  padding-bottom: 20px; }
+  @media (min-width: 1024px) {
+    main {
+      padding-bottom: 0px; } }
+
+@media (min-width: 1024px) {
+  #portfolio {
+    background: #fafafa; } }
+@media (min-width: 1024px) {
+  #portfolio-back {
+    background: #ededed;
+    padding-bottom: 20px; } }
+
+#skills {
+  background: #ededed; }
+  @media (min-width: 1024px) {
+    #skills {
+      background: #fafafa; } }
+
+#contact {
+  background: #fafafa; }
+
+.contact-border {
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 30px; }
+
+@media (min-width: 720px) {
+  .contact-text {
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 30px; } }
+@media (min-width: 1024px) {
+  .contact-text {
+    width: 47%; } }
+
+span {
+  padding-left: 15px;
+  color: #52bab4; }
+
+@media (min-width: 720px) {
+  .portfolio-cel {
+    display: inline-block;
+    width: 49%;
+    vertical-align: text-top; } }
+@media (min-width: 1024px) {
+  .portfolio-cel {
+    width: 30%;
+    margin-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px; } }
+
+header {
+  text-align: center; }
+
+.name:after, footer:after, main:after, #skills:after, #contact:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype"); }
+h2 {
+  font-size: 1em;
+  font-weight: normal;
+  color: #222;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+.portfolio-img img {
+  width: 90%; }
+
+#portfolio h3 {
+  padding-top: 5px; }
+#portfolio p {
+  padding-bottom: 10px; }
+
+#codeconSkills {
+  font-size: 1em;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  padding-bottom: 30px;
+  width: 80%;
+  border-top: 1px solid #acacac; }
+  @media (min-width: 1024px) {
+    #codeconSkills {
+      background: #ededed;
+      width: 93%; } }
+
+#codeconSkills img {
+  width: 20%;
+  height: 10%;
+  margin: auto 35%;
+  padding: 10px; }
+
+.codeconSkillbar {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  background: rgba(17, 17, 17, 0.3);
+  margin: 20px auto; }
+  @media (min-width: 1024px) {
+    .codeconSkillbar {
+      width: 90%; } }
+
+#codeconHTML {
+  width: 90%;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  height: 50px;
+  position: absolute;
+  background-color: #36acd0; }
+
+@keyframes Animate-HTML {
+  from {
+    width: 10px; }
+  to {
+    width: 90%; } }
+@-webkit-keyframes Animate-HTML {
+  from {
+    width: 10px; }
+  to {
+    width: 90%; } }
+@-moz-keyframes Animate-HTML {
+  from {
+    width: 10px; }
+  to {
+    width: 90%; } }
+@-o-keyframes Animate-HTML {
+  from {
+    width: 10px; }
+  to {
+    width: 90%; } }
+#codeconCSS {
+  animation: Animate-CSS 5s;
+  -webkit-animation: Animate-CSS 5s;
+  -moz-animation: Animate-CSS 5s;
+  -o-animation: Animate-CSS 5s;
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  background-color: #e0ab26; }
+
+@keyframes Animate-CSS {
+  from {
+    width: 10px; }
+  to {
+    width: 80%; } }
+@-webkit-keyframes Animate-CSS {
+  from {
+    width: 10px; }
+  to {
+    width: 80%; } }
+@-moz-keyframes Animate-CSS {
+  from {
+    width: 10px; }
+  to {
+    width: 80%; } }
+@-o-keyframes Animate-CSS {
+  from {
+    width: 10px; }
+  to {
+    width: 80%; } }
+#codeconjQuery {
+  animation: Animate-jQuery 5s;
+  -webkit-animation: Animate-jQuery 5s;
+  -moz-animation: Animate-jQuery 5s;
+  -o-animation: Animate-jQuery 5s;
+  width: 70%;
+  height: 50px;
+  position: absolute;
+  background-color: #52bab4; }
+
+@keyframes Animate-jQuery {
+  from {
+    width: 10px; }
+  to {
+    width: 70%; } }
+@-webkit-keyframes Animate-jQuery {
+  from {
+    width: 10px; }
+  to {
+    width: 70%; } }
+@-moz-keyframes Animate-jQuery {
+  from {
+    width: 10px; }
+  to {
+    width: 70%; } }
+@-o-keyframes Animate-jQuery {
+  from {
+    width: 10px; }
+  to {
+    width: 70%; } }
+#codeconJS {
+  animation: Animate-JS 4s;
+  -webkit-animation: Animate-JS 4s;
+  -moz-animation: Animate-JS 4s;
+  -o-animation: Animate-JS 4s;
+  width: 75%;
+  height: 50px;
+  position: absolute;
+  background-color: #675a85; }
+
+@keyframes Animate-JS {
+  from {
+    width: 10px; }
+  to {
+    width: 75%; } }
+@-webkit-keyframes Animate-JS {
+  from {
+    width: 10px; }
+  to {
+    width: 75%; } }
+@-moz-keyframes Animate-JS {
+  from {
+    width: 10px; }
+  to {
+    width: 75%; } }
+@-o-keyframes Animate-JS {
+  from {
+    width: 10px; }
+  to {
+    width: 75%; } }
+.codeconSkillArea {
+  z-index: 1;
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  text-shadow: none;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em; }
+
+.PercentText {
+  z-index: 3;
+  position: relative;
+  padding-right: 15px;
+  margin-top: 15px;
+  float: right;
+  text-shadow: none;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em; }
+
+/*# sourceMappingURL=application.css.map */

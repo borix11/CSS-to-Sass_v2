@@ -1,0 +1,16 @@
+// Center text
+
+%centered {
+	text-align: center;
+}
+
+// Clearfix
+
+%clearfix {
+	&:after {
+	  visibility: hidden;
+	  display: block;
+	  content: " ";
+	  clear: both;
+	}
+}
